@@ -1,0 +1,219 @@
+:root{
+    --primary-color: #9929fb;
+    --secondary-color: #ff9800;
+    --font-family: "Work Sans", sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    max-width: 1320px;
+    margin-inline: auto;
+    padding: 8px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    text-align: end;
+}
+
+nav ul li{
+    margin-inline: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #000;
+}
+
+nav .logo{
+    display: inline-block;
+    margin-inline-end: 40%;
+}
+
+
+nav img{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+nav p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom:10px;
+}
+
+nav ul{
+    display: inline-block;
+    margin-inline-start: auto;
+}
+
+ .nav-button{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 3px ;
+    border:1px solid var(--primary-color);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+main{
+    margin-inline: auto;
+background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%), radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);    
+    padding-top: 100px;
+
+}
+
+.intro{
+    display: inline-block;
+    width: 49%;
+}
+
+.intro h1{ 
+font-size: 60px;
+font-weight: 600;
+}
+.intro p{ 
+font-size: 18px;
+line-height:150%;
+}
+.person-image{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.person-image img{
+vertical-align: middle;
+}
+
+.main-content{
+padding: 10px 16px 8px;
+    background-color: #fff;
+    border-top-right-radius: 24px;
+    margin-inline: auto;
+    max-width: 1320px;
+}
+
+.Portfolio-card-section{
+     margin-inline:auto;
+     max-width: 1320px;
+     padding: 50px;
+}
+
+.card{
+    max-width: 32%;
+    display: inline-block;
+    margin-inline: 5px;
+    border: 1px solid #80808040;
+    border-radius: 12px;
+    
+}
+
+.card img{
+height: 100%;
+width: 100%;
+}
+
+.card-text{
+    padding: 32px;
+}
+
+.card-text h5{
+    color: oklch(.707 .022 261.325);
+}
+
+.card-text p{
+    color:oklch(.446 .03 256.802);
+    font-size: 14px;
+}
+
+.card-text button{
+padding: 10px 20px;
+font-weight: 600;
+color: #000;
+border: 1px solid #000;
+background-color: transparent;
+border-radius: 6px;
+}
+
+.card-text button:hover{
+
+color: var(--primary-color);
+border: 1px solid var(--primary-color);
+}
+
+.portfolio-heading{
+    text-align: center;
+}
+
+.portfolio-heading h1{
+font-size: 48px;
+}
+
+.portfolio-heading p{
+font-size: 18px;
+    color: oklch(.707 .022 261.325);
+    line-height: 150%;
+
+}
+
+  .footer-nav  {
+            display: flex;
+            flex-wrap: wrap;
+            justify-self: anchor-center;
+            justify-content: center;/* spacing after divider */
+    }
+
+      .footer-img , footer p{
+        text-align: center;
+
+    }
+
+    .footer-nav li + li {
+        border-left: 2px solid #000000; /* divider line */
+        padding-inline: 0.75rem;       /* spacing after divider */
+    }
+    
+    .footer-nav a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .footer-nav a:hover {
+        color: #666;
+    }
+
+
+    .footer-link {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    list-style: none;
+    padding:0.75rem;
+}
+    .footer-nav {
+
+    list-style: none;
+}
+.footer-link:hover {
+    color: var(--primary-color);
+}
